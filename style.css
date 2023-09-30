@@ -1,0 +1,84 @@
+::after ::before {
+    box-sizing: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.navigasi{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    
+    
+}
+.judul{
+    color: rgb(80, 4, 19);
+    margin-left: 1em;
+    font-size:12px;
+}
+.ratakiri{
+   display: flex;
+   
+
+   
+}
+.ratakiri ul {
+    display: flex;
+    margin-right: 12px;
+    
+}
+.ratakiri ul li,a{
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    flex-direction: column;
+    padding: 5px;
+    color: white;
+    
+}
+.ratakiri ul li a:hover{
+    color:orange;
+    cursor:grab;
+    font: bold;
+}
+   
+.background{
+    background-image: url('pmi.jpeg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 30em;
+    
+}
+.background p{
+    color: rgba(255, 240, 240, 0.975);
+    font-weight: 15px;
+    padding: 10% 350px 12px 30px  ; 
+    text-indent: 20px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+.oper{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 30em;
+
+}
+.Pendaftaran {
+    margin-left: 20px;
+    background-color: crimson;
+    font-style: normal;
+}
+.Pendaftaran:hover {
+    background-color: rgb(255, 174, 0);
+    cursor: grab;
+    font-style: italic
+}
+
+.pendahuluan{
+    text-align: center;
+    color: crimson;
+}
